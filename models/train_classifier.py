@@ -89,6 +89,7 @@ def build_model():
 
 def evaluate_model(model, X_test, Y_test, category_names):
     
+    #get prediction using the trained model
     Y_pred = model.predict(X_test)
     
     #Check the scores to test the model
