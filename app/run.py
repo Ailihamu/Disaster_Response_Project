@@ -19,7 +19,7 @@ app = Flask(__name__)
 def tokenize(text):
     tokens = word_tokenize(text)
     lemmatizer = WordNetLemmatizer()
-
+    #Tokenize and Lammatizer the text
     clean_tokens = []
     for tok in tokens:
         clean_tok = lemmatizer.lemmatize(tok).lower().strip()
