@@ -11,7 +11,7 @@ Python 3* and sklearn components were used in creating this project. I also Used
 
 ## Project Motivation<a name="motivation"></a>
 
-In this project, I used disaster data from Figure Eight to build a model for an API that classifies disaster messages in order to:
+In this project, I used disaster message data from Figure Eight to build a model for an API that classifies disaster messages in order to:
 
 1. Create a machine learning pipeline to categorize events to ensure people can send the messages to an appropriate disaster relief agency.
 2. Create a web app where an emergency worker can input a new message and get classification results in several categories. 
