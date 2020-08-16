@@ -81,6 +81,7 @@ def save_data(df, database_filepath):
     crate SQLITE database and load the cleaned data
     
     """
+    #Loading clean data from database
     engine = create_engine('sqlite:///{}'.format(database_filepath))
     df.to_sql('df_clean', engine, index=False, if_exists='replace')
 
