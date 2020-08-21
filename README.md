@@ -1,13 +1,15 @@
 ## Table of Contents
 
-1. [Installation](#installation)
+1. [Installation and libraries](#installation)
 2. [Project Motivation](#motivation)
 3. [File Descriptions](#files)
 4. [Licensing, Authors, and Acknowledgements](#licensing)
 
-## Installation <a name="installation"></a>
+## Installation and Libraries <a name="installation"></a>
 
 Python 3* and sklearn components were used in creating this project. I also Used nltk.download(['punkt', 'wordnet', 'averaged_perceptron_tagger']) for the classifier model training.
+
+Used libraries: pandas, numpy, nltk, json, sklearn, sqlite3, sqlalchemy, plotly, pickle
 
 ## Project Motivation<a name="motivation"></a>
 
@@ -27,6 +29,9 @@ There are five main files available here:
 5. /app/templates/go.html - HTML file creating the function in the web app for classifying new messages in categories.
 
 I used both markdown cells and # in the code to help walk through the processes of individual steps.
+
+## Results<a name="results"></a>
+A flask web app dash board can be run on the local host, which can show basic visulization of the training data and disaster response message filter.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
