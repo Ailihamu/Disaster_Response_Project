@@ -1,6 +1,6 @@
 ## Table of Contents
 
-1. [Installation and libraries](#installation)
+1. [Installation and Libraries](#installation)
 2. [Project Motivation](#motivation)
 3. [File Descriptions](#files)
 4. [Licensing, Authors, and Acknowledgements](#licensing)
