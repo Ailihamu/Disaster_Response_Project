@@ -3,7 +3,9 @@
 1. [Installation and Libraries](#installation)
 2. [Project Motivation](#motivation)
 3. [File Descriptions](#files)
-4. [Licensing, Authors, and Acknowledgements](#licensing)
+4. [Instruction for Running the Scripts](#instruction)
+5. [Results](#results)
+6. [Licensing, Authors, and Acknowledgements](#licensing)
 
 ## Installation and Libraries <a name="installation"></a>
 
@@ -29,6 +31,18 @@ There are five main files available here:
 5. /app/templates/go.html - HTML file creating the function in the web app for classifying new messages in categories.
 
 I used both markdown cells and # in the code to help walk through the processes of individual steps.
+
+## Instruction for Running the Scripts<a name="instruction"></a>
+
+1. Run the following commands in the project's root directory to set up the disaster response database and ML model.
+
+    - To run ETL pipeline that cleans data and stores in database
+        python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
+    - To run ML pipeline that trains classifier and saves
+        python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
+
+2. Run the following command in the app's directory to run your web app.
+    - python run.py
 
 ## Results<a name="results"></a>
 A flask web app dash board can be run on the local host, which can show basic visulization of the training data and disaster response message filter.
